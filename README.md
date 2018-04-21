@@ -12,8 +12,11 @@ e.g.
 `rostopic pub motor2/start std_msgs/Empty --once` will execute once the following method
 ```c++
 void startMotor2(const std_msgs::Empty& toggle_msg)
-``` whereas `rostopic pub motor1/start std_msgs/Int8 15 --once` will execute once the following method
+``` 
+whereas `rostopic pub motor1/start std_msgs/Int8 15 --once` will execute once the following method
 ```c++
 void startMotor1(const std_msgs::Int8& rpm)
-``` by passing as an argument an rpm of 15
+``` 
+by passing as an argument an rpm of 15
+
 6. You can see all available topics by running in a terminal `rostopic list`
