@@ -1,6 +1,17 @@
 ROS & Arduino - Control Stepper motors
 ======================================
 
+## Requirements
+
+- Arduino IDE with [rosserial_arduino](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup) installed (and Teensy plugin 
+if you use the Teensy board)
+- Arduino board (I used a Teensy 3.5)
+- 3 stepper motors (I used NEMA 17)
+- 3 motor drivers (I used A4988 but you can also use DRV8825 by making the appropriate changes in code)
+- 3 electrolytic capacitors (at least 47μF)
+- Some LED's (I used one RGB LED)
+- Power Supply (I used a 12V 8.5A)
+
 ## Instructions
 
 1. Enter the ROS environment `source /opt/ros/<distro>/setup.bash`
