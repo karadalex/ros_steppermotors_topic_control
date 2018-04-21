@@ -13,3 +13,4 @@ e.g.
 ```c++
 void startMotor1(const std_msgs::Empty& toggle_msg)
 ```
+6. You can see all available topics by running in a terminal `rostopic list`
