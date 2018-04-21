@@ -20,6 +20,8 @@ A4988 stepper1(MOTOR_STEPS, DIR1, STEP1);
 A4988 stepper2(MOTOR_STEPS, DIR2, STEP2);
 A4988 stepper3(MOTOR_STEPS, DIR3, STEP3);
 
+// TODO: build custom ROS message which will contain Int8 rpm 
+// also Int8 microstep and Int8 degrees
 void startMotor1(const std_msgs::Int8& rpm){
   // blink the led, to indicate motor1 has started
   digitalWrite(0, HIGH);
